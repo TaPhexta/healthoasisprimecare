@@ -1,0 +1,51 @@
+:root {
+  --primary-color: #556B2F;
+  --secondary-color: #000000;
+  --accent-color: #F5F5DC;
+  --gold-accent: #DAA520;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  color: #333;
+  padding-top: 80px;
+}
+
+.hero-banner {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+              url('trickle/assets/skin_drip.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.whatsapp-booking {
+    text-align: center;
+    padding: 2rem 1rem;
+    background: #f8f8f8; /* adjust to your theme colours */
+    border-radius: 12px;
+    margin: 40px auto;
+    max-width: 600px;
+}
+
+.whatsapp-btn {
+    background: #25D366; /* WhatsApp green */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 600;
+    transition: 0.3s ease;
+    display: inline-block;
+}
+
+.whatsapp-btn:hover {
+    opacity: 0.85;
+    transform: scale(1.03);
+}
