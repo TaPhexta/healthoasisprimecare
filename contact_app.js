@@ -100,7 +100,7 @@ function ContactApp() {
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg">
-                <form action="https://formsubmit.co/oysmbatani@gmail.com" method="POST" onSubmit={handleSubmit}>
+                <form action="https://formsubmit.co/0df077d790642d594d4b6368d882915d" method="POST" onSubmit={handleSubmit}>
                   <div className="mb-6">
                     <label className="block text-gray-700 font-bold mb-2">Name</label>
 
