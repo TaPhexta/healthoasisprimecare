@@ -93,14 +93,14 @@ function ContactApp() {
                     </div>
                     <div>
                       <h3 className="font-bold text-lg mb-1">Email</h3>
-                      <p className="text-gray-600">lilithaburwana99@gmail.com</p>
+                      <p className="text-gray-600">healthoasisprimecare@gmail.com</p>
                     </div>
                   </div>
                 </div>
               </div>
 
               <div className="bg-gray-50 p-8 rounded-lg">
-                <form action="https://formsubmit.co/0df077d790642d594d4b6368d882915d" method="POST" onSubmit={handleSubmit}>
+                <form action="https://formsubmit.co/healthoasisprimecare@gmail.com" method="POST" onSubmit={handleSubmit}>
                   <div className="mb-6">
                     <label className="block text-gray-700 font-bold mb-2">Name</label>
 
@@ -139,7 +139,7 @@ function ContactApp() {
                   </div>
 
                     <p className="text-xs text-gray-600 mb-3">
-                      By submitting, you confirm you have read our <a href="trickle/notes/disclaimer.pdf" target="_blank" className="underline">Medical Disclaimer</a>.
+                      By submitting, you confirm you have read our <a href="trickle/assets/disclaimer.pdf" target="_blank" className="underline">Medical Disclaimer</a>.
                     </p>
 
                   <button type="submit" className="w-full bg-[var(--primary-color)] text-white py-3 rounded-lg hover:bg-opacity-90 transition font-bold">
