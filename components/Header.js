@@ -30,7 +30,7 @@ function Header() {
         <header className={`fixed top-0 left-0 right-0 z-50 bg-white shadow-md ${scrolled ? 'header-visible' : ''}`} data-name="header" data-file="components/Header.js">
           <div className="container mx-auto px-6 py-4 flex items-center justify-between">
             <a href="index.html" className="flex items-center">
-              <img src="trickle/assets/logo_new_2.png" alt="Health Oasis Logo" className="h-20 w-auto object-contain" /> 
+              <img src="trickle/assets/logo_new_2.png" alt="Health Oasis Logo" className="h-15 w-auto object-contain" /> 
               </a>
             
             <nav className="hidden lg:flex items-center space-x-8">
