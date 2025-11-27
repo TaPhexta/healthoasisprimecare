@@ -61,7 +61,7 @@ function ContactApp() {
                 
                 <div class="whatsapp-booking">
                   <p>Book your IV drip session instantly via WhatsApp:</p>
-                    <a href="https://wa.me/27849700201" target="_blank" class="whatsapp-btn">
+                    <a href="https://wa.me/27624827497" target="_blank" class="whatsapp-btn">
                        WhatsApp Booking
                     </a>
                 </div>
