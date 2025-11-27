@@ -16,7 +16,7 @@ function Footer() {
                 <li><a href="about.html" className="text-gray-300 hover:text-white transition">About Us</a></li>
                 <li><a href="services.html" className="text-gray-300 hover:text-white transition">Services</a></li>
                 <li><a href="contact.html" className="text-gray-300 hover:text-white transition">Contact</a></li>
-                <li><a href="trickle/notes/medical_disclaimer.pdf" target="_blank" className="text-gray-300 hover:text-white transition">Medical Disclaimer</a></li>
+                <li><a href="trickle/assets/medical_disclaimer.pdf" target="_blank" className="text-gray-300 hover:text-white transition">Medical Disclaimer</a></li>
               </ul>
             </div>
 
