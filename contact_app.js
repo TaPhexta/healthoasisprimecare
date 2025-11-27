@@ -139,7 +139,7 @@ function ContactApp() {
                   </div>
 
                     <p className="text-xs text-gray-600 mb-3">
-                      By submitting, you confirm you have read our <a href="trickle/assets/disclaimer.pdf" target="_blank" className="underline">Medical Disclaimer</a>.
+                      By submitting, you confirm you have read our <a href="trickle/assets/Health_Oasis_Medical_Disclaimer.pdf" target="_blank" className="underline">Medical Disclaimer</a>.
                     </p>
 
                   <button type="submit" className="w-full bg-[var(--primary-color)] text-white py-3 rounded-lg hover:bg-opacity-90 transition font-bold">
