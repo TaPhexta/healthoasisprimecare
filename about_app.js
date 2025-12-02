@@ -1,3 +1,6 @@
+import burwanaImg from '../trickle/assets/burwana.jpg';
+import lilithaImg from '../trickle/assets/lilitha.jpg';
+
 function AboutApp() {
   const teamMembers = [
     { name: 'Zizipho Penelope Bless', role: 'Director, Professional Nurse and IV Drip Administrator', image: '/trickle/assets/burwana.jpg' },
