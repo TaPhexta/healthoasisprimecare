@@ -1,7 +1,7 @@
 function AboutApp() {
   const teamMembers = [
-    { name: 'Zizipho Penelope Bless', role: 'Director, Professional Nurse and IV Drip Administrator', image: 'https://images.unsplash.com/photo-1559839734-2b71ea197ec2?w=300&h=300&fit=crop' },
-    { name: 'Lilitha Burwana', role: 'Junior Manager', image: 'https://images.unsplash.com/photo-1612349317150-e413f6a5b16d?w=300&h=300&fit=crop' },
+    { name: 'Zizipho Penelope Bless', role: 'Director, Professional Nurse and IV Drip Administrator', image: '/trickle/assets/burwana.jpg' },
+    { name: 'Lilitha Burwana', role: 'Junior Manager', image: '/trickle/assets/lilitha.jpg' },
     ];
 
  /* const testimonials = [
