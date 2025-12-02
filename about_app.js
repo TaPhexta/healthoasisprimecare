@@ -3,8 +3,8 @@ import lilithaImg from '../trickle/assets/lilitha.jpg';
 
 function AboutApp() {
   const teamMembers = [
-    { name: 'Zizipho Penelope Bless', role: 'Director, Professional Nurse and IV Drip Administrator', image: '/trickle/assets/burwana.jpg' },
-    { name: 'Lilitha Burwana', role: 'Junior Manager', image: '/trickle/assets/lilitha.jpg' },
+    { name: 'Zizipho Penelope Bless', role: 'Director, Professional Nurse and IV Drip Administrator. Practice no.: 1292382 ', image: '/trickle/assets/zizipho1.jpg' },
+    { name: 'Lilitha Burwana', role: 'Junior Manager', image: '/trickle/assets/lilitha1.jpg' },
     ];
 
  /* const testimonials = [
