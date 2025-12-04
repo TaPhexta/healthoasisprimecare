@@ -1,14 +1,17 @@
 function Footer() {
   try {
     return (
+      // Footer wrapper
       <footer className="bg-[var(--secondary-color)] text-white py-12" data-name="footer" data-file="components/Footer.js">
         <div className="container mx-auto px-6">
+        {/*Footer grid*/}
           <div className="grid md:grid-cols-4 gap-8 mb-8">
+          {/* Site description*/}
             <div>
               <h3 className="text-xl font-bold mb-4 text-[var(--accent-color)]">Health Oasis</h3>
               <p className="text-gray-300 text-sm">Your premier destination for IV drip therapy and wellness treatments.</p>
             </div>
-            
+            {/*Nav*/}
             <div>
               <h4 className="font-bold mb-4 text-[var(--accent-color)]">Quick Links</h4>
               <ul className="space-y-2 text-sm">
@@ -19,14 +22,14 @@ function Footer() {
                 <li><a href="trickle/assets/Health_Oasis_Medical_Disclaimer.pdf" target="_blank" className="text-gray-300 hover:text-white transition">Medical Disclaimer</a></li>
               </ul>
             </div>
-
+            {/*Location and contact*/}
             <div>
               <h4 className="font-bold mb-4 text-[var(--accent-color)]">Contact Info</h4>
               <p className="text-gray-300 text-sm mb-2">33 Saffery Street</p>
               <p className="text-gray-300 text-sm mb-2">Villa Nadia, Humansdorp 6300</p>
               <p className="text-gray-300 text-sm">Phone: (042) 291-0034</p>
             </div>
-
+            {/*Trading hours*/}
             <div>
               <h4 className="font-bold mb-4 text-[var(--accent-color)]">Operating Hours</h4>
               <p className="text-gray-300 text-sm mb-2">Monday - Friday:9am - 5pm</p>
@@ -34,7 +37,7 @@ function Footer() {
               <p className="text-gray-300 text-sm">Sunday:      CLOSED</p>
             </div>
           </div>
-
+          {/*Copy right and media links*/}
           <div className="border-t border-gray-700 pt-8 flex flex-col items-center text-center gap-4">
               <p className="text-gray-400 text-sm">© 2025 Health Oasis. All rights reserved.</p>
                 <div className="flex space-x-4">
@@ -53,6 +56,7 @@ function Footer() {
       </footer>
     );
   } catch (error) {
+    // Error handling
     console.error('Footer component error:', error);
     return null;
   }
