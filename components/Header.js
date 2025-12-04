@@ -50,7 +50,7 @@ function Header() {
               <a href="https://instagram.com/healthoasis_ivdrips?igsh=MWhhdmdzNGwyZ3dp/m" target="_blank" className="w-9 h-9 border-2 border-[var(--primary-color)] rounded-full flex items-center justify-center hover:bg-[var(--primary-color)] hover:text-white transition">
                 <div className="icon-instagram text-sm"></div>
               </a>
-              <a href="https://wa.me/27849700201" target="_blank" className="w-9 h-9 border-2 border-[var(--primary-color)] rounded-full flex items-center justify-center hover:bg-[var(--primary-color)] hover:text-white transition">
+              <a href="https://wa.me/27624827497" target="_blank" className="w-9 h-9 border-2 border-[var(--primary-color)] rounded-full flex items-center justify-center hover:bg-[var(--primary-color)] hover:text-white transition">
                 <div className="icon-message-circle text-sm"></div>
               </a>
             </div>
