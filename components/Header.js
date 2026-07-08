@@ -1,42 +1,41 @@
 function Header() {
   // shadow effect scroll, dropdown menu open, mobile navigation menu control, timeout delay for dropdown
+  const [headerVisible, setHeaderVisible] = React.useState(true);
   const [scrolled, setScrolled] = React.useState(false);
-  const [showDropdown, setShowDropdown] = React.useState(false);
   const [mobileMenuOpen, setMobileMenuOpen] = React.useState(false);
   const dropdownTimeout = React.useRef(null);
 
   // detect scroll for header styling
   React.useEffect(() => {
-    let lastScrollY = window.scrollY;
-    const handleScroll = () => {
-      const currentScrollY = window.scrollY;
-      setScrolled(currentScrollY > 50);
-      lastScrollY = currentScrollY;
-    };
-    window.addEventListener('scroll', handleScroll);
-    return () => window.removeEventListener('scroll', handleScroll);
-  }, []);
-
-  //hovering over dropdown areas
-  const handleMouseEnter = () => {
-    if (dropdownTimeout.current) clearTimeout(dropdownTimeout.current);
-    setShowDropdown(true);
+  let lastScrollY = window.scrollY;
+  const handleScroll = () => {
+    const currentScrollY = window.scrollY;
+    setScrolled(currentScrollY > 50);
+    if (currentScrollY < lastScrollY || currentScrollY < 20) {
+      setHeaderVisible(true);
+    } else {
+      setHeaderVisible(false);
+    }lastScrollY = currentScrollY;
   };
-  
-  const handleMouseLeave = () => {
-    dropdownTimeout.current = setTimeout(() => setShowDropdown(false), 200);
-  };
+  window.addEventListener("scroll", handleScroll);
+  return () => window.removeEventListener("scroll", handleScroll);
+}, []);
 
   try {
     return (
       <>
     {/* Fixed header*/}
-        <header style={{ padding: "20px 0" }} className={`fixed top-0 left-0 right-0 z-50 bg-white shadow-md ${scrolled ? 'header-visible' : ''}`} data-name="header" data-file="components/Header.js">
+        <header
+  style={{ padding: "10px 0" }}
+  className={`fixed top-0 left-0 right-0 z-50 bg-white shadow-md transition-transform duration-300 ${
+    headerVisible ? "translate-y-0" : "-translate-y-full"
+  } ${scrolled ? "header-visible" : ""}`}
+>
           {/* Header inner container*/}
-          <div className="container mx-auto px-4 py-2 flex items-center justify-between">
+          <div className="container mx-auto px-4 py-1 flex items-center justify-between">
             {/* Logo*/}
             <a href="index.html" className="flex items-center">
-              <img src="trickle/assets/logo_new_2.png" alt="Health Oasis Logo" style={{ height: "60px" }} className="w-auto object-contain" /> 
+              <img src="trickle/assets/logo_new_2.png" alt="Health Oasis Logo" style={{ height: "50px" }} className="w-auto object-contain" /> 
               </a>
             {/*Nav Links-desktop*/}
             <nav className="hidden lg:flex items-center space-x-8">
