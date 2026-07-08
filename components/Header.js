@@ -36,7 +36,7 @@ function Header() {
           <div className="container mx-auto px-4 py-2 flex items-center justify-between">
             {/* Logo*/}
             <a href="index.html" className="flex items-center">
-              <img src="trickle/assets/logo_new_2.png" alt="Health Oasis Logo" style={{ height: "80px" }} className="w-auto object-contain" /> 
+              <img src="trickle/assets/logo_new_2.png" alt="Health Oasis Logo" style={{ height: "60px" }} className="w-auto object-contain" /> 
               </a>
             {/*Nav Links-desktop*/}
             <nav className="hidden lg:flex items-center space-x-8">
